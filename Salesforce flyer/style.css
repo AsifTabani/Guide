@@ -1,0 +1,109 @@
+*{
+	box-sizing: border-box;
+}
+
+.wrapper{
+	width: 100%;
+	margin: 8px, 6px, 5px;
+}
+.img {
+	float: right;
+	width: auto;
+	height: auto;
+
+}
+
+.imgcloud{
+	width: 500px; 
+	height: 500px;
+}
+
+.cloud{
+	text-align: center;
+	 font-family: Arial;
+	  font-size: 18px;
+
+}
+
+ul {
+	//margin: 12px; 
+	//padding: 8px;
+	//padding-bottom: 20px;
+	text-align: justify-all;
+	 font-size: Arial; 
+	 font-size: 14px;
+	 margin-left: 40px;
+	 
+}
+
+li{
+	margin-right: 40px;
+}
+
+.img2 {
+	float: left;
+	width: 100%
+	height: auto;
+}	
+
+.imgheader{
+	width: 200px; 
+	height: 50px; 
+	margin-top: 50px;
+	margin-left: 50px; 
+	//float: right;
+}
+
+.header{
+	font-family: Arial;
+	 font-size: 20px;
+	 text-align: center;
+
+}
+
+h3{
+	background-color: purple;
+	color: white;
+	width: 100%;
+	height: 25px, 20px, 18px;
+	margin: auto;	
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.row:after{
+	content:  "";
+	display: table;
+	clear: both;
+}
+
+.leftcolumn{
+	width: 40%;
+	padding: 10px;
+	float: left;
+}
+.rightcolumn{
+	width: 60%;
+	float: right;
+	//padding-left:  200px;
+}
+
+
+
+.footer{
+	background-color: 	grey;
+	width: 	auto;
+	text-align: center;	
+	font-size: 13px, 10px, 8px;
+	color: 	white;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn,  .rightcolumn {
+  		width: 100%;
+  }
+  	
+  	
+}
+
